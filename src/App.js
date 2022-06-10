@@ -4,7 +4,7 @@ import tabledata from './tabledata.css'
 function TableData() {
     const [data, getData] = useState([])
     const URL = 'https://jsonplaceholder.typicode.com/posts';
-    const mainURL = 'http://forge.smartcampus.city/api/airquality/';
+    const mainURL = 'https://forge.smartcampus.city/api/airquality/';
  
     useEffect(() => {
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
