@@ -28,6 +28,7 @@ function TableData() {
     return (
         <>
             <h1>AQI DATA</h1>
+            <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
             <tbody>
                 <tr>
                     <th>datetime</th>
