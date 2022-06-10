@@ -7,6 +7,7 @@ function TableData() {
     const mainURL = 'http://forge.smartcampus.city/api/airquality/';
  
     useEffect(() => {
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
         fetchData()
     }, [])
  
